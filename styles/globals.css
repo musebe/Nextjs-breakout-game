@@ -1,0 +1,77 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: url('https://res.cloudinary.com/dogjmmett/image/upload/v1653450646/background_smh6ks.jpg');
+  color: #FFFF;
+  text-align: center;
+  object-fit: cover;
+  align-items: center;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ 
+
+.container {
+  align-items: center;
+  display: flex;
+  /* border: 3px solid rgb(0, 0, 0); */
+  margin: 50px;
+  width: 25vw;
+  height: 25vw;
+  margin-left: 30%;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+.column {
+
+  display: flex;
+  flex: 1 1 0px;
+  border: 10px;
+  border:3px solid  rgb(182, 0, 0);
+  text-align: center;
+}
+
+canvas {
+  background: #f0f0f0;
+  display: block;
+  border-radius: 5px;
+  width: 25vw;
+  height: 20vw;
+  /* margin: 2rem; */
+  box-shadow:
+  0  5px 10px rgba(23, 23, 24, 0.05),
+  0 15px 40px rgba(166,173,201,0.2);
+}
+
+button {
+  padding: 15px;
+  color: #7B7B7B;
+  background-color: #FFF;
+  border-radius: 1rem;
+  border: 1px solid;
+  font-size: 20px;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  text-align: center;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  transition: 1s;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
